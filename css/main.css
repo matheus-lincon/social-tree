@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--body-bg-color);
+  color: var(--purple);
+}
+
+body a {
+  text-decoration: none;
+  color: var(--purple);
+}
+
+/* CONTAINER */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  width: 100%;
+
+  overflow: auto;
+}
+
+/* PROFILE */
+#profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#profile #username {
+  font-weight: 300;
+  color: var(--purple);
+  margin: 10px 0;
+}
+
+/* image */
+#image {
+  width: 100%;
+}
+
+#image img {
+  max-width: 200px;
+  max-height: 200px;
+
+  border-radius: 50%;
+  border: 5px solid var(--purple);
+}
+
+/* TREE */
+#tree {
+  margin-top: 30px;
+  min-width: 100%;
+
+  display: grid;
+  place-items: center;
+}
+
+#tree .tree-contents {
+  border: 2px solid var(--purple);
+
+  width: 90%;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+
+  white-space: nowrap;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#tree .tree-contents:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+/* SOCIAL MEDIA*/
+
+#social-media {
+  margin-top: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#social-media div {
+  margin: 0 30px 30px 30px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #tree .tree-contents {
+    max-width: 50%;
+  }
+}
