@@ -27,4 +27,4 @@ As tecnologias usadas foram:
 
 ### Mobile
 
-<img src="./readme-files/mobile-preview.png" min-width="720px"/>
+<img src="./readme-files/mobile-preview.png" width="320px"/>
