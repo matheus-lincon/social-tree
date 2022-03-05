@@ -2,7 +2,7 @@
 
 ## Sobre o projeto :information_source:
 
-Esse projeto feito com HTML & CSS foi tirado de um dos desafiso do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
+Esse projeto feito com HTML & CSS foi tirado de um dos desafios do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
 
 Um projeto para ser utilizado como uma lista de links úteis que pode ser usado em perfis de redes sociais, parecido com o **Linktree**.
 
