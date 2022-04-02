@@ -23,8 +23,8 @@ As tecnologias usadas foram:
 
 ### Desktop
 
-<img src="./readme-files/desktop-preview.png" />
+<img src="./readme-files/desktop-preview.png" min-width="375px">
 
 ### Mobile
 
-<img src="./readme-files/mobile-preview.png" />
+<img src="./readme-files/mobile-preview.png" width="320px">

@@ -38,6 +38,21 @@ body a {
   font-weight: 300;
   color: var(--purple);
   margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#profile #username span {
+  font-size: 1.2;
+  color: #f8f088;
+}
+
+#profile #username span:not(:last-child) {
+  margin-right: 10px;
+}
+
+#profile #username span:not(:first-child) {
+  margin-left: 10px;
 }
 
 /* image */
@@ -78,6 +93,12 @@ body a {
 
 #tree .tree-contents:not(:last-child) {
   margin-bottom: 16px;
+}
+
+#tree .tree-contents:hover {
+  transition: 0.4s;
+  color: #f8f088;
+  border: 2px solid #f8f088;
 }
 
 /* SOCIAL MEDIA*/
