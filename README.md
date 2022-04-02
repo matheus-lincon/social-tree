@@ -2,7 +2,7 @@
 
 ## Sobre o projeto :information_source:
 
-Esse projeto feito com HTML & CSS foi tirado de um dos desafiso do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
+Esse projeto feito com HTML & CSS foi tirado de um dos desafios do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
 
 Um projeto para ser utilizado como uma lista de links úteis que pode ser usado em perfis de redes sociais, parecido com o **Linktree**.
 
@@ -23,8 +23,16 @@ As tecnologias usadas foram:
 
 ### Desktop
 
+<<<<<<< HEAD
 <img src="./readme-files/desktop-preview.png" min-width="375px">
 
 ### Mobile
 
 <img src="./readme-files/mobile-preview.png" width="320px">
+=======
+<img src="./readme-files/desktop-preview.png" width="720px" />
+
+### Mobile
+
+<img src="./readme-files/mobile-preview.png" width="320px"/>
+>>>>>>> 1d251da2e6f5148ac18e740508c02a6b56bec58a
